@@ -1,0 +1,25 @@
+{
+  "name": "project-echo-arg",
+  "version": "1.0.0",
+  "description": "Project Echo ARG - A 2000s-style alternate reality game",
+  "scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.0",
+    "wouter": "^2.11.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
